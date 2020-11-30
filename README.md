@@ -49,10 +49,12 @@ You can connect the following Wallet-Apps to your RaspiBlitz:
 
 Also many more features like Touchscreen, Autopilot, DynDNS, SSH-Tunneling, UPS Support, ...
 
-## DeepDive Video (July 2020)
-
+## DeepDive Video (July 2020) 1,5h
 <img src="pictures/raspiblitz-deepdive.png" alt="DeepDive Video" width="400">
 --watch--> https://www.youtube.com/watch?v=QXUGg45CWLo
+
+## DeepDive Video (August 2020) 3h
+--watch--> https://www.youtube.com/watch?v=ScFTGLC2ZlY
 
 ## Time Estimate to Set Up a RaspiBlitz
 
