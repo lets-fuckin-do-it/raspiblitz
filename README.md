@@ -145,7 +145,8 @@ Torrent: [assets/raspiblitz-v1.6.2-2020-11-30.img.gz.torrent](https://github.com
 
 ## Write the SD-Card image to your SD Card
 
-You need to write the downloaded SD card image (the img.gz-file) to your SD card (16GB minimum) - you can use the very easy tool Balena Etcher for this: https://www.balena.io/etcher/. It's available for Win, Mac & Linux.
+You need to write the downloaded SD card image (the img.gz-file) to your SD card (16GB minimum) - you can use the very easy tool Balena Etcher for this: https://www.balena.io/etcher/. It's available for Win, Mac & Linux. 
+Some users have reported that in case of issue writing the image to SD card (intermitent error messages such as "Something went wrong" before writing although it writes anyways but the raspberry is unable to boot) you should try upgrading to the latest version of Balena Etcher, this fixed the issue in many instances.
 
 ## Boot your RaspiBlitz
 
