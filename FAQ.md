@@ -222,13 +222,13 @@ How to backup LND data in a rescue situation see next question "How can I recove
 
 ## How can I recover my coins from a failing RaspiBlitz?
 
-On a RaspiBlitz you have coins in your on-chain wallet (bitcoin wallet) and also coins in lightning channels. First we will try to recover all of them and even trying to keep your channels open with "Recover LND data". This that is not possible you can fall back to the second option "Recover from Wallet Seed".
+On a RaspiBlitz you have coins in your on-chain wallet (bitcoin wallet) and also coins in lightning channels. First we will try to recover all of them and even try to keep your channels open with "Recover LND data". If this fails you can fall back to the second option "Recover from Wallet Seed".
 
 ### 1) Recover LND data
 
-Best to recover all your LND data/channels is when you still can SSH into the RaspiBlitz and the HDD is still usable/reachable (mounted) - even it shows some errors. If this is not possible anymore you should skip to the second option "Recover from Wallet Seed" or try to recover the LND data from the HDD (directory `lnd`) from another computer.
+The best case scenario is when your RaspiBlitz shows some errors but is still healthy enough to interact with (you can still SSH it, the HDD still mounts): In this case you should be able to recover all your LND data (funds and channels) quite easily. Otherwize you should skip to the second option "Recover from Wallet Seed" or try to recover the LND data from the HDD (directory `lnd`) from another computer.
 
-If you still can SSH in and HDD is readable, we can try to rescue/export your LND data (funds and channels) from a RaspiBlitz to then be able to restore it back to a fresh one. For this you can use the following procedure ...
+If you can still SSH it and HDD mounts, you can attempt to rescue/export your LND data (funds and channels) from the faulty RaspiBlitz. Then you can restore your LND data onto a fresh RaspiBlitz. For this you can use the following procedure ...
 
 To rescue/export your Lightning data from a RaspiBlitz (since v1.1):
 
